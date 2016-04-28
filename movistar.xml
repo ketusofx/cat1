@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>#0</title>         
+<link>http://cdn.sstream.pw/live/canalplushd_9wgyfa8/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/JvpukWA.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/46.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>Estrenos</title>         
+<link>http://cdn.sstream.pw/live/plusestrenos_ahnxk7j/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/Y103Nw4.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>Bein España</title>         
+<link>http://cdn.sstream.pw/live/bein_alwkqfq/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/LPOM3Er.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+ 
+<item>
+<title>Bein Latino</title>
+<link>$doregex[getVipRacing]</link>
+<regex>
+<name>getVipRacing</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.info/channel/bein-es/frame')</expres>
+<page></page>
+</regex>
+<thumbnail>http://i.imgur.com/LPOM3Er.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>El Partidazo</title>         
+<link>http://cdn.sstream.pw/live/tvb111/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/WCbXhpB.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>+ Liga</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/canal+liga.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/canal+liga.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/CanalLiga.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<tem>
+<title>+ Liga</title>         
+<link>http://cdn.sstream.pw/live/tvb111/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/CanalLiga.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>+ Liga 2 Carrusel</title>
+<link>http://cdn.sstream.pw/live/tvb119/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/pJziRLc.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+ 
+<item>
+<title>+ Liga 2 A</title>
+<link>http://cdn.sstream.pw/live/tvb141/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/pJziRLc.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>+ Liga 2 B</title>
+<link>http://cdn.sstream.pw/live/tvb142/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/pJziRLc.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>+ Liga 2 C</title>
+<link>http://cdn.sstream.pw/live/tvb143/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/pJziRLc.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>+ Liga 2 D</title>
+<link>http://cdn.sstream.pw/live/tvb144/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/pJziRLc.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>Canal+ Deportes [COLOR red][I]f4mTester requerido[/I][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://xtream-codes.no-ip.org:61250/live/avatar016/ixGdWCs7DW/12851.ts&amp;streamtype=TSDOWNLOADER</link>
+<thumbnail>http://i.imgur.com/pEYn7X7.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<tem>
+<title>Canal+ Deportes</title>         
+<link>http://cdn.sstream.pw/live/deportes_avylh70/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/pEYn7X7.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>Canal+ Deportes 2</title>         
+<link>http://cdn.sstream.pw/live/deportes2_ardgdvv/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/CFGXuoh.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+ 
+<item>
+<title>Canal+ Futbol</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/canal+futbol.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/canal+futbol.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/canal-plus-bar.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>+ Golf [COLOR red][I]f4mTester requerido[/I][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://xtream-codes.no-ip.org:61250/live/avatar016/ixGdWCs7DW/12844.ts&amp;streamtype=TSDOWNLOADER</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/CanalGolf.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<tem>
+<title>+ Golf</title>         
+<link>http://cdn.sstream.pw/live/golf_asn535f/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/CanalGolf.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>+ Toros [COLOR red][I]f4mTester requerido[/I][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://xtream-codes.no-ip.org:61250/live/avatar016/ixGdWCs7DW/12834.ts&amp;streamtype=TSDOWNLOADER</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/cptohd.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<tem>
+<title>+ Toros</title>         
+<link>http://cdn.sstream.pw/live/toros_9frbv56/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/cptohd.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>Formula 1 [COLOR red][I]f4mTester requerido[/I][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://xtream-codes.no-ip.org:61250/live/avatar016/ixGdWCs7DW/12837.ts&amp;streamtype=TSDOWNLOADER</link>
+<thumbnail>http://i.imgur.com/3Z7SWB3.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<tem>
+<title>Formula 1</title>         
+<link>http://cdn.sstream.pw/live/formula1_aqz9n68/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/3Z7SWB3.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>Moto gp [COLOR red][I]f4mTester requerido[/I][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://xtream-codes.no-ip.org:61250/live/avatar016/ixGdWCs7DW/12833.ts&amp;streamtype=TSDOWNLOADER</link>
+<thumbnail>http://i.imgur.com/9gVV2t2.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<tem>
+<title>Moto gp</title>         
+<link>http://cdn.sstream.pw/live/tvb117/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/9gVV2t2.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>Teledeporte</title>         
+<link>http://cdn.sstream.pw/live/teledeporte_aw3kx97/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/JoepnyG.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>Real Madrid</title>
+<sportsdevil>http://cinestrenostv.tv/canales/envivo/realmadrid.html</sportsdevil>
+<referer>http://cinestrenostv.tv</referer>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/RealMadridTv.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+ </item>
+ 
+<item>
+<title>barça TV</title>         
+<link>http://cdn.sstream.pw/live/barcatv_aw3h4aq/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>https://copy.com/SJ4OqgOkqocgOCUr</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+
+<item>
+<title>Eurosports 1</title>         
+<link>http://cdn.sstream.pw/live/eurosport1_aiyry92/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i.imgur.com/3XNuAzS.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>  
+
+<item>
+<title>Acción</title>         
+<link>http://cdn.sstream.pw/live/accion_aqtvoax/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/canalplus_es_plus1_30-2.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item> 
+ 
+<item>
+<title>+ Comedia</title>
+<link>rtmp://89.248.169.55/iguide playpath=t6zehd5sg0oehhq swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGDvcx7</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/canalplus_es_plus1_30-3.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>DCINE ESPAÑOL</title>         
+<link>http://cdn.sstream.pw/live/dcine_aw3g20p/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://sistectelecom.com/images/canales/dc.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item> 
+ 
+<item>
+<title>+ SeriesXtra</title>
+<link>rtmp://nl.iguide.to/iguide playpath=62sn73q6cjfaq1l  swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1pageUrl=http://www.iguide.to/embedplayer_new.php?width=728&height=565&channel30323&autoplay=true token=#ed%h0#w18623jsda6523IDGD</link>
+<thumbnail>http://i.imgur.com/0XwnQQ5.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+ 
+<item>
+<title>+ Series</title>         
+<link>http://cdn.sstream.pw/live/series_aw3d82v/playlist.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.playerapp1.pw/&amp;Connection=keep-alive&amp;Icy-Metadata=0</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/CanalSeries.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<agent>Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</agent>
+<cookieJar></cookieJar>
+</item>
+   
+<tem>
+<title>Canal + Xtra</title>
+<link>rtmp://play3.tvope.com/tvope playpath=stream_xtraser swfUrl=http://i.tvope.com/swf/player5.4.swf live=1 pageUrl=http://tvope.com</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/canalxtra.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+ 
+<item>
+<title>DCine</title>
+<link>rtmp://89.248.169.55/iguide playpath=y6y6vfv2sxxot0n swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGDvcx7</link>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/canalplusdecine.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>

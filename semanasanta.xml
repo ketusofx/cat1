@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+<item>
+<title>Los Diez Mandamientos</title>
+<link>$doregex[url]</link>
+<regex>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>jsonurl</name>
+	<expres>"url360":"(.*?)"</expres>
+	<page>http://vk.com/video_ext.php?oid=200727184&amp;id=167412244&amp;hash=6e3d6144cb3e68d1&amp;hd=1</page>
+	<referer>http://vk.com</referer>
+</regex>
+<thumbnail>http://cdn.pordede.com/content/covers/mediacover-2648-4.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart> 
+</item>
+
+<item>
+<title>Ben Hur</title>
+<link>$doregex[url]</link>
+<regex>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>jsonurl</name>
+	<expres>"url360":"(.*?)"</expres>
+	<page>http://vk.com/video_ext.php?oid=260211037&amp;id=170197015&amp;hash=7061123272bd389c&amp;hd=1</page>
+	<referer>http://vk.com</referer>
+</regex>
+<thumbnail>http://cdn1.pordede.com/content/covers/mediacover-523-4.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart> 
+</item>
+
+<item>
+<title>Jesús de Nazaret</title>
+<link>plugin://plugin.video.youtube/play/?video_id=gHGQgaqF4oA</link>
+<thumbnail>http://cdn1.pordede.com/content/covers/mediacover-1511-4.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart> 
+</item>
+
+<item>
+<title>Cristiada</title>
+<link>$doregex[url]</link>
+<regex>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>jsonurl</name>
+	<expres>"url360":"(.*?)"</expres>
+	<page>http://vk.com/video_ext.php?oid=200547179&amp;id=164958205&amp;hash=742f27b0cdf77fbb&amp;hd=1</page>
+	<referer>http://vk.com</referer>
+</regex>
+<thumbnail>http://cdn1.pordede.com/content/covers/mediacover-42813-4.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart> 
+</item>
+
+<item>
+<title>Un Dios pohibido</title>
+<link>plugin://plugin.video.youtube/play/?video_id=9IKIpsqjsAQ</link>
+<thumbnail>http://i.imgbox.com/4McydIyl.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Quo Vadis</title>
+<link>$doregex[get-mp4]</link>
+<regex>
+<name>get-mp4</name>
+<expres>$pyFunction:'$doregex[get-mp4escape]'.replace('amp;','')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-mp4escape</name>
+<expres>source type=".*src="(.*?sd.mp4.*?)".*?width=</expres>
+<page>https://gloria.tv/media/Yc5215ph6qs</page>
+<referer>https://gloria.tv/</referer>
+</regex>
+<thumbnail>http://cdn.pordede.com/content/covers/mediacover-5272-4.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Encontraras dragones</title>
+<link>$doregex[get-mp4]</link>
+<regex>
+<name>get-mp4</name>
+<expres>$pyFunction:'$doregex[get-mp4escape]'.replace('amp;','')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-mp4escape</name>
+<expres>source type=".*src="(.*?sd.mp4.*?)".*?width=</expres>
+<page>https://gloria.tv/media/sWog7r4HcGp</page>
+<referer>https://gloria.tv/</referer>
+</regex>
+<thumbnail>http://cdn.pordede.com/content/covers/mediacover-22894-4.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>

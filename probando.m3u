@@ -1,0 +1,38 @@
+#EXTM3U
+#EXTINF:-1 group-title="TDT" tvg-logo="la1.png",La 1
+http://hlslive.rtve.es:80/LA1_LV3_IPH/bitrate_1.m3u8
+#EXTINF:-1 group-title="TDT" tvg-logo="la2.png",La 2
+http://hlslive.rtve.es:80/LA2_LV3_IPH/bitrate_1.m3u8
+#EXTINF:-1 group-title="TDT" tvg-logo="antena3.png",Antena 3
+http://www.iptvsaga.com/play/tv3/0012.m3u8
+#EXTINF:-1 group-title="TDT" tvg-logo="antena3.png",Antena 3 opcion 2
+http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8
+#EXTINF:-1 group-title="TDT" tvg-logo="cuatro.png",Cuatro
+
+#EXTINF:-1 group-title="TDT" tvg-logo="lasexta.png",La Sexta
+http://a3live-lh.akamaihd.net/i/lasexta/lasexta_1@35272/index_2_av-b.m3u8
+#EXTINF:-1 group-title="TDT" tvg-logo="fdf.png",FDF
+
+#EXTINF:-1 group-title="TDT" tvg-logo="mega.png",MEGA
+http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/index_3_av-b.m3u8
+#EXTINF:-1 group-title="TDT" tvg-logo="energy.png",Energy
+http://mediasethls-lh.akamaihd.net/i/mitele/energy_g@393137/index_500_av-p.m3u8
+#EXTINF:-1 group-title="TDT" tvg-logo="nova.png",Nova
+http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8
+#EXTINF:-1 group-title="TDT" tvg-logo="atreseries.png",Atreseries
+http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8
+#EXTINF:-1 group-title="TDT" tvg-logo="galiciatv.png",Galicia TV Europa
+http://media3.crtvg.es/live/tvge/vcx7.m3u8
+#EXTINF:-1 group-title="Noticias" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/300px-Russia-today-logo.svg.png",RT Noticias
+http://rt-lh.akamaihd.net/i/ch_02@325606/index_720p_av-p.m3u8
+#EXTINF:-1 group-title="Noticias" tvg-logo="24h.png",Canal 24 horas
+http://iphonelive.rtve.es/24H_LV3_IPH/24H_LV3_IPH.m3u8
+#EXTINF:-1 group-title="Deportes" tvg-logo="iberalia.png",10 TV
+rtmp://87.106.220.67/live/myStream_2
+#EXTINF:-1 group-title="Deportes" tvg-logo="realmadridtv.png",Real Madrid TV
+http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8
+
+
+#EXTINF:-1,cuatro
+#EXTVLCOPT:http-referrer=http://www.playerhd2.pw
+http://cdn.sstream.pw/live/cuatro_xrf2a3/chunklist.m3u8

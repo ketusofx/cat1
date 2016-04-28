@@ -1,0 +1,229 @@
+#EXTM3U
+#EXTINF:-1,España 1
+http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/index_0748_av-p.m3u8
+#EXTINF:-1,EspaÃ±a 2
+http://iphone-andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8
+#EXTINF:-1,EspaÃ±a 3
+http://corporacionextremena-live.hls.adaptive.level3.net/hls-live/corporacionextremena-channel02/_definst_/live.m3u8
+#EXTINF:-1,EspaÃ±a 4
+http://live-hls.rtvcm.stream.flumotion.com/rtvcm/hls-multi/main.m3u8
+#EXTINF:-1,EspaÃ±a 5
+http://cls.todostreaming.eu/huelvatv/livestream/playlist.m3u8
+#EXTINF:-1,EspaÃ±a 6
+http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3_web/chunklist_b798000.m3u8
+#EXTINF:-1,EspaÃ±a 7
+http://cdns724ste1010.multistream.net/tgsietelive/amlst:tvgranada/playlist_b750000.m3u8
+#EXTINF:-1,EspaÃ±a 8
+rtmp://corporacionextremenaocclivefs.fplive.net/corporacionextremenalive-live/stream1
+#EXTINF:-1,EspaÃ±a 9
+rtmp://media3.crtvg.es:80/live/tvge
+#EXTINF:-1,EspaÃ±a 10
+rtmp://62.210.141.18:1935/directo/lancelot.television
+#EXTINF:-1,EspaÃ±a 11
+http://teledifusion.tv:1935/informaciontvlive/informaciontvlive/.m3u8
+#EXTINF:-1,EspaÃ±a 12
+http://cls.todostreaming.eu/azahara/lepevision/chunklist.m3u8
+#EXTINF:-1,EspaÃ±a 13
+rtmp://cdn.s3.eu.nice264.com:1935/niceLiveServer/NTV_livenatvmb_MB_478ext
+#EXTINF:-1,EspaÃ±a 14
+http://iphone-streaming.ustream.tv/uhls/14420271/streams/live/iphone/playlist.m3u8
+#EXTINF:-1,EspaÃ±a 15
+http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_2.m3u8
+#EXTINF:-1,Paraguay 1
+rtmp://70.36.100.38:1935/live/canal13_hq.stream
+#EXTINF:-1,Paraguay 2
+http://iphone-streaming.ustream.tv/uhls/19109913/streams/live/iphone/playlist.m3u8
+#EXTINF:-1,Uruguay 1
+http://xcanaloncepuntadelestex.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1,Guatemala 1
+http://iphone-streaming.ustream.tv/ustreamVideo/9556054/streams/live/playlist.m3u8
+#EXTINF:-1,Guatemala 2
+http://72.46.226.61/live01/canal31/playlist.m3u8
+#EXTINF:-1,Guatemala 3
+http://iphone-streaming.ustream.tv/ustreamVideo/8376988/streams/live/playlist.m3u8
+#EXTINF:-1,Guatemala 4
+http://aztecalive-lh.akamaihd.net/i/1ym9yab3c_1@66742/master.m3u8
+#EXTINF:-1,Nicaragua 1
+rtmp://162.244.81.181:1935/live/Stream1
+#EXTINF:-1, Nicaragua 2
+http://www.razalive.com/demoface.php?id=2015&f=.m3u8
+#EXTINF:-1,Nicaragua 3
+http://iphone-streaming.ustream.tv:80/uhls/13870671/streams/live/playlist.m3u8
+#EXTINF:-1,Costa Rica 1
+http://cdn.siscompnetwork.com:1935/app/canal27.sdp/playlist.m3u8
+#EXTINF:-1,Costa Rica 2
+rtmp://199.217.118.90:1935/smotv/stream
+#EXTINF:-1,Costa Rica 3
+rtmp://k3.usastreams.com:1935/colosaltv1/colosaltv1
+#EXTINF:-1,Costa Rica 4
+rtmp://k3.usastreams.com:1935/cana6/cana6
+#EXTINF:-1,Costa Rica 5
+http://stream-03.sv6.dailymotion.com/01/dm/1/x29e3wg/live.isml/events(live-1446119763)/live-audio=128000-video=423000.m3u8
+#EXTINF:-1,Costa Rica 6
+http://sambatechlive-live.hls.adaptive.level3.net/manifests/sambatech-cdrtv02/livestream.m3u8
+#EXTINF:-1,Costa Rica 7
+rtmp://k3.usastreams.com:1935/canal29/canal29
+#EXTINF:-1,Costa Rica 8
+rtmp://k3.usastreams.com:1935/tv33/tv33
+#EXTINF:-1,Costa Rica 9
+rtmp://k3.usastreams.com:1935/canal42/canal42
+#EXTINF:-1,Ecuador 1
+http://xtvncanalecx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1,Ecuador 2
+rtmp://ecuastream.net:1935/UCSGHQ/UCSGHQ
+#EXTINF:-1,Panama 1
+http://live.ecotvpanama.com/ecotv/media.smil/playlist.m3u8
+#EXTINF:-1,Panama 2
+http://live.telemetro.com/telemetro/tm.smil/playlist.m3u8
+#EXTINF:-1Bolivia 1
+http://www.server.tevemi.com:1935/8092/8092/playlist.m3u8
+#EXTINF:-1,Bolivia 2
+http://streamer1.streamhost.org:1935/salive/GMIalfam/playlist.m3u8
+#EXTINF:-1Mexico 1
+http://www.razalive.com/demoface.php?id=5509&f=.m3u8
+#EXTINF:-1,Mexico 2
+http://38.104.228.230:1938/info7/info7_512/playlist.m3u8?
+#EXTINF:-1,Mexico 3
+rtmp://50.7.98.234/rtv/videortv
+#EXTINF:-1, tvg-name="Mexico 4" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/993.png", Mexico 4
+http://brightcove03-f.akamaihd.net/milenio_centro_512k@101956?videoId=1389353763001&lineUpId=&pubId=57828478001&playerId=86401898001&affiliateId=&bandwidthEstimationTest=true&v=3.4.0&fp=WIN%2017,0,0,188&r=TPCNF&g=FYCMNWLYDNSE
+#EXTINF:-1, tvg-name="Mexico 5" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/995.png", Mexico 5
+http://201.130.193.150:1935/codecsys/smil:ocho.smil/master.m3u8
+#EXTINF:-1, tvg-name="Mexico 6" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/997.png", Mexico 6
+http://187.237.253.94:8134/hls-live/livepkgr/_definst_/liveevent.m3u8
+#EXTINF:-1, tvg-name="Mexico 7" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/999.png", Mexico 7
+http://urtmpkal-f.akamaihd.net/i/05i15qzql_1@149710/master.m3u8
+#EXTINF:-1, tvg-name="Mexico 8" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1177.png", Mexico 8
+http://www.oncetvmexicolive.tv:1935/livepkgr2/smil:int.smil/playlist.m3u8
+#EXTINF:-1, tvg-name="El Salvador 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1331.png", El Salvador 1
+http://xtrvnuestasenalx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1, tvg-name="El Salvador 2" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1469.png", El Salvador 2
+rtmp://panel.elsalvadordigital.com:1935/canal23/canal23
+#EXTINF:-1, tvg-name="El Salvador 3" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1588.png", El Salvador 3
+http://xgrupomegavisionx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1, tvg-name="Honduras 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1317.png", Honduras 1
+rtmp://m.aliasdns.info:8979/live/globotv
+#EXTINF:-1, tvg-name="Honduras 2" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1319.png", Honduras 2
+rtmp://control1.worldkast.com:1935/canal10/canal10
+#EXTINF:-1, tvg-name="Honduras 3" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1321.png", Honduras 3
+http://4.31.30.140:1935/live/hchtvdigital/playlist.m3u8?wowzasessionid=1792561590
+#EXTINF:-1, tvg-name="Honduras 4" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1323.png", Honduras 4
+rtmp://4.31.30.140:1935/live/mundotv
+#EXTINF:-1, tvg-name="Honduras 5" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1327.png", Honduras 5
+http://162.212.176.83:8080/sulavision.m3u8
+#EXTINF:-1, tvg-name="Colombia 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/367.png", Colombia 1
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/ANTI/tu1_1.m3u8?
+#EXTINF:-1, tvg-name="Colombia 2" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/365.png", Colombia 2
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TVAG/tu1_3.m3u8?
+#EXTINF:-1, tvg-name="Colombia 3" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/353.png", Colombia 3
+http://xcanalzoomtvx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1, tvg-name="Colombia 4" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/357.png", Colombia 4
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/VMAS/tu1_1.m3u8?
+#EXTINF:-1, tvg-name="Colombia 5" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/355.png", Colombia 5
+http://edge.wms28.lorini.net/ldtv/ldtv/hasbahca.m3u8
+#EXTINF:-1, tvg-name="Colombia 6" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/363.png", Colombia 6
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TCAF/tu1_1.m3u8?
+#EXTINF:-1, tvg-name="Colombia 7" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/361.png", Colombia 7
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/CNOT/tu1_1.m3u8?
+#EXTINF:-1, tvg-name="Colombia 8" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1173.png", Colombia 8
+http://xhogartvx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1, tvg-name="Colombia 9" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1175.png", Colombia 9
+http://xcanalutvx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1, tvg-name="Venezuela 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1253.png", Venezuela 1
+http://edge.wms28.lorini.net/globovisiontv/globovisiontv/hasbahca.m3u8
+#EXTINF:-1, tvg-name="Venezuela 2" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1255.png", Venezuela 2
+http://dvyd5g1fkvmtn.cloudfront.net/tvvenezuela/ngrp:live_PC/playlist.m3u8
+#EXTINF:-1, tvg-name="Venezuela 3" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1305.png", Venezuela 3
+http://xtvocanal23x.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1, tvg-name="Venezuela 4" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1307.png", Venezuela 4
+rtmp://edge.wms28.lorini.net/canalonce/canalonce
+#EXTINF:-1, tvg-name="Venezuela 5" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1309.png", Venezuela 5
+rtmp://cast.streamingconnect.tv:1935/pdvsatvweb/pdvsatvweb
+#EXTINF:-1, tvg-name="Venezuela 6" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1311.png", Venezuela 6
+http://edge.wms28.lorini.net:1935/trttv/trttv/playlist.m3u8
+#EXTINF:-1, tvg-name="Venezuela 7" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1313.png", Venezuela 7
+http://edge.wms28.lorini.net/promar/promar/hasbahca.m3u8
+#EXTINF:-1, tvg-name="Venezuela 8" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1315.png", Venezuela 8
+http://edge.wms28.lorini.net/agrotendenciatv/agrotendenciatv/hasbahca.m3u8
+#EXTINF:-1, tvg-name="Chile 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/799.png", Chile 1
+http://wow2.cl.digitalproserver.com/c9//c9.smil/playlist.m3u8
+#EXTINF:-1, tvg-name="Chile 2" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/959.png", Chile 2
+http://movilstream.digitalproserver.com/itv/itvvivo/itv.smil/playlist.m3u8
+#EXTINF:-1, tvg-name="Chile 3" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/961.png", Chile 3
+http://tvn-vod.mdstrm.com/liveedge/tvnelemental.smil/chunklist_b981000.m3u8
+#EXTINF:-1, tvg-name="Chile 4" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1165.png", Chile 4
+http://wow2.cl.digitalproserver.com/campustv/campustvvivo/campustv.smil/chunklist_w662421777_b848000.m3u8
+#EXTINF:-1, tvg-name="Chile 5" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1167.png", Chile 5
+http://streaming.elpinguino.com:1935/live/pinguinotv_360p/sat.m3u8
+#EXTINF:-1, tvg-name="Chile 6" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1169.png", Chile 6
+http://wow1.dallas.digitalproserver.com/redtv/redtvvivo/livestream3/master.m3u8
+#EXTINF:-1, tvg-name="Chile 7" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1245.png", Chile 7
+http://movilstream.digitalproserver.com/c9/c9.smil/playlist.m3u8
+#EXTINF:-1, tvg-name="Argentina 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1141.png", Argentina 1
+rtmp://streamspub.manasat.com/tvar/tvmanaar1
+#EXTINF:-1, tvg-name="Argentina 2" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1143.png", Argentina 2
+http://live-edge01.telecentro.net.ar/live/smil:tlx.smil/master.m3u8
+#EXTINF:-1, tvg-name="Argentina 3" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1145.png", Argentina 3
+rtsp://stream.mgzn.tv/live/mgzntv/mgzntv
+#EXTINF:-1, tvg-name="Argentina 4" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1149.png", Argentina 4
+rtsp://200-42-92-148.prima.net.ar/live/tnhd1
+#EXTINF:-1, tvg-name="Argentina 5" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1514.png", Argentina 5
+http://urtmpkal-f.akamaihd.net/i/1b6mj17sk_1@308700/master.m3u8
+#EXTINF:-1, tvg-name="Argentina 6" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1517.png", Argentina 6
+rtmp://201.219.100.30:1935/telpintv/ttv.stream_720p
+#EXTINF:-1, tvg-name="Argentina 7" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1520.png", Argentina 7
+http://dd65nd24m61wg.cloudfront.net/livec9/smil:C9.smil/chunklist_b796000.m3u8
+#EXTINF:-1, tvg-name="Argentina 8" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1547.png", Argentina 8
+http://198.154.228.82:1935/live/esnetv/playlist.m3u8
+#EXTINF:-1, tvg-name="Peru 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1159.png", Peru 1
+http://live.soltvperu.com:1935/soltv/soltv/playlist.m3u8
+#EXTINF:-1, tvg-name="Peru 2" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1161.png", Peru 2
+rtmp://willax.mediastream.pe/vv_willax/livestream
+#EXTINF:-1, tvg-name="Peru 3" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1163.png", Peru 3
+rtmp://184.154.28.210:1935/rbcsatelital-hd/rbcsatelital-hd
+#EXTINF:-1, tvg-name="Peru 4" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1247.png", Peru 4
+http://wowzacontrol.net:1935/8050/8050/playlist.m3u8
+#EXTINF:-1, tvg-name="Peru 5" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1249.png", Peru 5
+http://x.x
+#EXTINF:-1, tvg-name="Peru 6" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1505.png", Peru 6
+http://edge-41-us.edge.mdstrm.com/live-stream-secure/smil:c23b8a0a21d215482b4c2703e47f675a/playlist_b200.m3u8?access_token=cRUTS
+#EXTINF:-1, tvg-name="Peru 7" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1508.png", Peru 7
+rtmp://flatina1livefs.fplive.net/flatina1live-live/stream1
+#EXTINF:-1, tvg-name="Peru 8" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1511.png", Peru 8
+http://xvivatvcanal4arequipax.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1, tvg-name="Peru 9" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1652.png", Peru 9
+http://iphone-streaming.ustream.tv/uhls/17419715/streams/live/iphone/playlist.m3u8
+#EXTINF:-1, tvg-name="Dominican Republic 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/309.png", Dominican Republic 1
+http://mek4.mekstream.com/teleantillas/live3/playlist.m3u8
+#EXTINF:-1, tvg-name="Dominican Republic 2" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/787.png", Dominican Republic 2
+http://ss6.domint.net:1962/al_edge/antena/playlist.m3u8
+#EXTINF:-1, tvg-name="Dominican Republic 3" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/313.png", Dominican Republic 3
+http://ss8.domint.net:2048/cvis_str/video/playlist.m3u8
+#EXTINF:-1, tvg-name="Dominican Republic 4" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/807.png", Dominican Republic 4
+http://www.razalive.com/demoface.php?id=2935&f=.m3u8
+#EXTINF:-1, tvg-name="Dominican Republic 5" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/809.png", Dominican Republic 5
+http://www.razalive.com/demoface.php?id=1627&f=.m3u8
+#EXTINF:-1, tvg-name="Dominican Republic 6" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/811.png", Dominican Republic 6
+http://www.razalive.com/demoface.php?id=9655&f=.m3u8
+#EXTINF:-1, tvg-name="Dominican Republic 7" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1151.png", Dominican Republic 7
+rtmp://qs1.distream.net:2112/tf_str/futu
+#EXTINF:-1, tvg-name="Dominican Republic 8" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1153.png", Dominican Republic 8
+http://108.168.206.90:1935/cdn/cdn/playlist.m3u8
+#EXTINF:-1, tvg-name="Dominican Republic 9" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1155.png", Dominican Republic 9
+http://108.168.206.90:1935/cdnsm/cdnsm/playlist.m3u8
+#EXTINF:-1, tvg-name="Dominican Republic 10" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/315.png", Dominican Republic 10
+rtmp://ss9.domint.net:1942/tu_str/universo
+#EXTINF:-1, tvg-name="Trinidad and Tobago 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1594.png", Trinidad and Tobago 1
+http://cnmg.live.cdn.bitgravity.com/cnmg/live/ctv
+#EXTINF:-1, tvg-name="Jamaica 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1496.png", Jamaica 1
+http://x.x
+#EXTINF:-1, tvg-name="Jamaica 2" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1489.png", Jamaica 2
+http://vm2.zenzig.com/hls/jet1.m3u8
+#EXTINF:-1, tvg-name="Haiti 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1389.png", Haiti 1
+http://iphone-streaming.ustream.tv/uhls/12020729/streams/live/iphone/playlist.m3u8
+#EXTINF:-1, tvg-name="Barbados 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1325.png", Barbados 1
+rtmp://68.71.42.179:80/live/livestream1
+#EXTINF:-1, tvg-name="Curacao 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1291.png", Curacao 1
+rtmp://cdn8.iviplanet.com/Telecuracao/myStream.sdp
+#EXTINF:-1, tvg-name="Bonaire 1" tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1293.png", Bonaire 1
+rtmp://panchito13.flashmediacast.com:2087/live/livestream

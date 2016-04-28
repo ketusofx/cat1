@@ -1,0 +1,4009 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+
+<channels>
+<channels_info> 
+<title>DEPORTES</title>
+<genre>Deportes</genre>
+<description>Los deportes del dia</description>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/deport10.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<date>2016</date>
+<credits>© Catoal</credits>
+</channels_info>
+
+
+<channel>
+<name>.[COLOR lime] Lista de deportes de ADRYAN LIST [/COLOR]</name>
+<Thumbnail></thumbnail>
+<fanart></fanart>
+<items>
+
+<item>
+<title>.[COLOR lime] Lista de deportes de ADRYAN LIST [/COLOR]</title>
+<link>http://Ignoreme</link>
+<externallink>http://adryanlist.org/adryan/deportes_adryan_list.xml</externallink>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+</items>
+</channel>
+
+<channel>
+<name>. [COLOR lime]Sevilla FC[/COLOR]</name>
+<thumbnail>http://i739.photobucket.com/albums/xx33/catoal/n_sevilla_fondos-44214.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<items>
+
+<item>
+    <title>. Sevilla FC Op.1</title>
+    <link>http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-b.m3u8?sd=10&rebase=on</link>
+    <thumbnail>http://i739.photobucket.com/albums/xx33/catoal/n_sevilla_fondos-44214.jpg</thumbnail>
+	<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+    </item>
+	
+<item>
+    <title>. Sevilla FC Op.2</title>
+    <link>http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0300_av-p.m3u8?sd=10&rebase=on</link>
+    <thumbnail>http://i739.photobucket.com/albums/xx33/catoal/n_sevilla_fondos-44214.jpg</thumbnail>
+	<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+    </item>	
+	
+<item>
+    <title>. Sevilla FC Op.3</title>
+    <link>http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8?sd=10&rebase=on</link>
+    <thumbnail>http://i739.photobucket.com/albums/xx33/catoal/n_sevilla_fondos-44214.jpg</thumbnail>
+	<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+    </item>		
+</items>
+</channel>
+
+<channel>
+<name>.[COLOR lime] Canales Deportivos no Españoles[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<items>
+
+<item>
+<title>Motors TV</title>
+<sportsdevil>http://cricfree.tv/update/motors.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+</item>
+
+<item>
+<title>Motors TV</title>
+<sportsdevil>http://www.foot-live.info/stream/ch70.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+</item>
+
+<item>
+<title>Sky Sport MotoGP<title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysportmotogp.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysportmotogp.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/skysportmotogp.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>UEFA Champions League</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/uefachampionsleague.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/uefachampionsleague.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/uefachampionsleague.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Barclays Premier League</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/barclayspremierleague.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/barclayspremierleague.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/barclayspremierleague.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Indian Premier League</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/ipl.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/ipl.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/ipl.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>SET MAX</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/setmax.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/setmax.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/setmax.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Live Cricket</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/livecricket.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/livecricket.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/livecricket.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>Ten Sports</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/tensports.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/tensports.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/tensports.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>Sky Sports 1</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports1-2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports1-2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/skysports1.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>Sky Sports 2</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/skysports2.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>Sky Sports 3</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports3.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports3.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/skysports3.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>Sky Sports 4</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports4.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports4.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/skysports4.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>Sky Sports 5</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports5.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysports5.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/skysports5.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>Sky Sports F1</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysportsf1-2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysportsf1-2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/skysportsf1.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>BT Sport 1</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/btsport1.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/btsport1.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/btsport1.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>BT Sport 2</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/btsport2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/btsport2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/btsport2.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+
+<item>
+<title>BT Sport Europe</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/btsporteurope.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/btsporteurope.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/btsporteurope.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sport ESPN</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/btsportespn.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/btsportespn.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/btsportespn.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Eurosport‎ 1</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/eurosport.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/eurosport.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/eurosport.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Eurosport‎ 2</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/eurosport2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/eurosport2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/eurosport2.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Premier Sports</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/premiersports.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/premiersports.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/premiersports.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports News</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsportsnews.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsportsnews.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsportsnews.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 1</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports1.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports1.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports1.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 2</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports2.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 3</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports3.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports3.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports3.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 4</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports4.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports4.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports4.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 5</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports5.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports5.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports5.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 6</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports6.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports6.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports6.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 7</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports7.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports7.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports7.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 8</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports8.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports8.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports8.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 9</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports9.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports9.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports9.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 10</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports10.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports10.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports10.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 11 English</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports11.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports11.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports11.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 12 English</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports12.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports12.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports12.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 13 English</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports13.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports13.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports13.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 1 France</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports1france.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports1france.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports1france.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 2 France</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports2france.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports2france.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports2france.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>beIN Sports 3 France</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports3france.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/beinsports3france.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/beinsports3france.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Willow TV</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/willowtv.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/willowtv.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/willowtv.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Fox Sports 1</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/foxsports1.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/foxsports1.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/foxsports1.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Fox Sports 2</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/foxsports2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/foxsports2.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/foxsports2.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sport MotoGP</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
+<page></page>
+</regex>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysportmotogp.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.liveonlinetv247.info/embed/skysportmotogp.php</page>
+<referer>http://www.liveonlinetv247.info/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://www.liveonlinetv247.info/images/skysportmotogp.png</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+</item>
+
+</items>
+</channel>
+
+<channel>
+<name>. [COLOR lime]ROJADIRECTA[/COLOR] [COLOR blue][I]SportDevil[/I][/COLOR]</name>
+<thumbnail>http://novaley.es/wp-content/uploads/2014/04/img340_1.jpg</thumbnail>
+<fanart>http://novaley.es/wp-content/uploads/2014/04/img340_1.jpg</fanart>
+<items>
+
+<item>
+<title>. [COLOR lime]ROJADIRECTA[/COLOR] [COLOR blue][I]SportDevil[/I][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
+</item>
+</items>
+</channel>
+
+<channel>
+<name>.[COLOR lime] PIRLO TV[/COLOR] [COLOR blue][I]SportDevil[/I][/COLOR]</name>
+<thumbnail>http://www.intergoles.com/pirlotv/images/pirlotv.jpg</thumbnail>
+<fanart>http://pirlotvhd.com/wp-content/uploads/2015/11/pirlotv.jpg</fanart>
+<items>
+
+<item>
+<title>.[COLOR lime] PIRLO TV[/COLOR] [COLOR blue][I]SportDevil[/I][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR coral][makelist.param1][/COLOR] • [COLOR skyblue][B][makelist.param3][/B][/COLOR][COLOR skyblue][makelist.param4][/COLOR]</title>
+<sportsdevil>http://www.pirlotvlive.com/[makelist.param2]</sportsdevil>
+<referer>http://www.pirlotvlive.com</referer>
+]]></listrepeat>
+<expres>t\"\>(.*?)\<[\w\W\s]{0,120}../(.*?)"[\w\W\s]{0,10}blank">(.*?)<[\w\W\s]{0,2}>(.*?)<</expres>
+<page>http://www.pirlotvlive.com/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.intergoles.com/pirlotv/images/pirlotv.jpg</thumbnail>
+</item>
+</items>
+</channel>
+
+<channel>
+<name>.[COLOR lime] DinoZap [/COLOR](Ver Programación en la web)[COLOR blue][I]SportDevil[/I][/COLOR]</name>
+<thumbnail>https://dinozaptv.files.wordpress.com/2011/11/dtv1.jpg</thumbnail>
+<fanart>https://dinozaptv.files.wordpress.com/2011/11/dtv1.jpg</fanart>
+<items>
+
+<item>
+<title>. [COLOR lime]Dinozap[/COLOR]</title>
+
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[B][COLOR deepskyblue]Canal [/COLOR][COLOR skyblue] [makelist.param1][/COLOR][/B]</title>
+    <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>(?s)bed\s*(\d+)\s(.+?)Em</expres>
+<page>$doregex[getpage]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<item>
+    <title>[B][COLOR dodgerblue][makelist2.param1]-[makelist2.param2][/COLOR][/B]</title>
+    <sportsdevil>http://www.dinozap.info/redirect/channel.php?id=[makelist.param1]</sportsdevil>
+    <referer>http://www.dinozap.info/</referer>
+</item>
+]]></listrepeat>
+<expres>(?s)\s*([\d\:]+)\s*(.+?\))\s*</expres>
+<page>[makelist.param2]</page>
+<referer>http://www.dinozap.info</referer>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getpage</name>
+<expres>$pyFunction:codecs.decode(page_data,'gb18030').encode('ascii','xmlcharrefreplace')</expres>
+<page>http://www.dinozap.info/prog.txt</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>
+</items>
+</channel>
+
+<channel>
+<name>.[COLOR lime] Wizhdsports [/COLOR](Ver Programación en la web)</name>
+<thumbnail>http://wizhdsports.com/images/wiz.jpg</thumbnail>
+<fanart>http://media.zenfs.com/es_ES/Sports/Eurosport/1450039-30997683-2560-1440.jpg</fanart>
+<items>
+
+<item>
+<title>. [COLOR lime]Wizhdsports[/COLOR]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[ 
+   <title>[makelist.param2]--[makelist.param1]</title>
+   <link>$doregex[makelist2]</link>
+   <referer>http://wizhdsports.com</referer>
+]]></listrepeat>
+<expres><![CDATA[(?s)class="match".+?class="name">\s*(.+?)\s*<.*?margin.*?>([\d:\s-]+).+?channel.+?>(.+?)<script]]></expres>
+<page>http://wizhdsports.com/</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[ 
+	<title>Stream [makelist2.param1]</title>
+	<link>$doregex[getUrl]</link>
+]]></listrepeat>
+<expres><![CDATA[(?s)float:left.{4,10}href.+?Stream\s*(\d+)\s*<\/a]]></expres>
+<page>[makelist.param3]</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m, param=''):
+	
+	import requests
+	import re
+	import base64
+	
+	try:
+		
+		id = re.findall("javascript.*?id='(.*?)'", page_data)[0]
+		url = 'http://bro.adca.st/stream.php?id=' + id + '&width=640&height=480'
+		headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://wizhdsports.com/live/stream20.php'}
+		source = requests.get(url, headers = headers)
+		curl = re.findall('curl = "(.*?)"', source.text)[0]
+		m3u8 = base64.b64decode(curl)
+
+		url2 = 'http://bro.adca.st/getToken.php'     
+		headers2 = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': url, 'X-Requested-With': 'XMLHttpRequest'}
+		source2 = requests.get(url2, headers = headers2)
+		token = re.findall('"token":"(.*?)"', source2.text)[0]
+
+		return m3u8 + token + '|Referer=http://cdn.bro.adca.st/jwplayer.flash.swf&User-Agent=Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'
+
+	except Exception as e:
+		print 'wizhdsports: Error: '
+		if hasattr(e, 'code'):
+			print str(e.code)               
+		if hasattr(e, 'reason'):
+			print " " + str(e.reason)
+]]></expres>
+<page>http://wizhdsports.com/live/stream[makelist2.param1].php</page>
+<referer>http://wizhdsports.com/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://wizhdsports.com/images/wiz.jpg</thumbnail>
+<fanart>http://media.zenfs.com/es_ES/Sports/Eurosport/1450039-30997683-2560-1440.jpg</fanart>
+</item>
+</items>
+</channel>
+
+<channel>
+<name>.[COLOR lime]Stadium Live[/COLOR]</name>
+<thumbnail>http://www.stadium-live.biz/images/logo.png</thumbnail>
+<fanart>http://frontrowsports.me/wp-content/uploads/2014/12/Soccer-Live-Streaming-Sports1.jpg</fanart>
+<items>
+
+<item>
+<title>. [COLOR lime]Stadium Live[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]-[makelist.param2]</title>
+    <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>(?s)&lt;td.*?&lt;p class.*?&gt;(\d+\:\d+)\s*&lt;.*?class.*?&gt;\s*(.+?)\s*&lt;(.*?)&lt;\/td</expres>
+<page>$doregex[getpage]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getpage</name>
+<expres>$pyFunction:codecs.decode(page_data,'gb18030').encode('ascii', 'xmlcharrefreplace')</expres>
+<page>http://www.stadium-live.biz/</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<proxy></proxy>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+    <title>[makelist2.param2]</title>
+   <sportsdevil>http://www.stadium-live.biz/$doregex[streampage]</sportsdevil>
+   <referer>http://www.stadium-live.biz/</referer>
+]]></listrepeat>
+<expres>href="(.+\d+\.html)".+?&gt;(.*?)&lt;</expres>
+<page>[makelist.param3]</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex> 
+<name>streampage</name>
+<expres>iframe\s+src="(ch_.*?)"</expres>
+<page>http://www.stadium-live.biz/[makelist2.param1]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.stadium-live.biz/images/logo.png</thumbnail>
+<fanart>http://frontrowsports.me/wp-content/uploads/2014/12/Soccer-Live-Streaming-Sports1.jpg</fanart>
+
+</item>
+</items>
+</channel>
+	
+
+**********************************************************************************************************************************************************************
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](09[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Futsal : Guangzhou - Jiangsu[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch6.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](12[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Ankaraspor - Antalyaspor[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch14.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](13[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Nürnberg - Union Berlin[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch145.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](13[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Heidenheim - Paderborn[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch146.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](13[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Derby - Sheffield Weds[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch62.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch131.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](13[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Rangers - Alloa[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch63.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch132.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](13[/COLOR]:[COLOR yellow]45)[/COLOR] :[COLOR red] Manchester City - Stoke[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch2.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch11.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch61.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch130.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch112.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](14[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Auxerre - Dijon[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch1.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch7.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](15[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Istanbul Basaksehir - Sivasspor[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch14.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch34.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](15[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Hertha - Bayern[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch4.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch142.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch148.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](15[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Cologne - Darmstadt 98[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch146.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch35.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](15[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Wolfsbourg - Augsbourg[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch147.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch33.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](15[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Stuttgart - Dortmund[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch21.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch141.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch145.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](15[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Ingolstadt - Hannovre[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch149.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](16[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] AFC Bournemouth - Chelsea[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch150.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](16[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Rayo Vallecano - Real Madrid[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch1.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch7.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch111.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](16[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Aston Villa - Southampton[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch152.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch60.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch131.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch38.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](16[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Hobro - Esbjerg[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch153.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch7.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch113.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch36.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](16[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Liverpool - Newcastle[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch2.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch11.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch112.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch4.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch113.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](17[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Toulouse - Lyon[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch6.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch10.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch39.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+ <tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](18[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Llagostera - Nástic Tarragona[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch143.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch65.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch134.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch111.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch42.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](18[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Albacete - Girona[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch142.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](18[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Club Brugge - Zulte-Waregem[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch113.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](18[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Leganés - Ponferradina[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch141.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](18[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Akhisar Belediyespor - Besiktas[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch14.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](18[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Real Oviedo - Huesca[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch144.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](18[/COLOR]:[COLOR yellow]15)[/COLOR] :[COLOR red] Atlético Madrid - Malaga[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch1.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch7.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch65.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch134.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch111.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](18[/COLOR]:[COLOR yellow]15)[/COLOR] :[COLOR red] Everton - Manchester Utd[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch19.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch145.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](18[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Schalke - Leverkusen[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch2.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch136.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch112.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch127.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](20[/COLOR]:[COLOR yellow]15)[/COLOR] :[COLOR red] Deportivo Alavés - Elche[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch119.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](20[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Barcelona - Gijon[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch1.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch7.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch61.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch130.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch111.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](20[/COLOR]:[COLOR yellow]45)[/COLOR] :[COLOR red] Inter - Udinese[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch4.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch8.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch136.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch113.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](21[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Paris SG - Lille[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch3.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch6.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch69.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch138.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<item>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch146.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](21[/COLOR]:[COLOR yellow]15)[/COLOR] :[COLOR red] San Lorenzo - CA Huracán[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch112.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch7.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch61.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch130.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch111.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](22[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Montreal - Toronto[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch19.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch7.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch61.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch130.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch111.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](22[/COLOR]:[COLOR yellow]00)[/COLOR] :[COLOR red] Philadelphie - New York City[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch63.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<item>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch132.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch61.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch130.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch111.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](22[/COLOR]:[COLOR yellow]05)[/COLOR] :[COLOR red] Eibar - Deportivo La Coruña[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch141.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch7.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch61.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch130.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch111.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+<hannel>
+<name>[COLOR blue]  23/04/2016[/COLOR] [COLOR yellow](23[/COLOR]:[COLOR yellow]30)[/COLOR] :[COLOR red] Lanús - Banfield[/COLOR]</name>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+<items>
+
+<item>
+<title>Canal 1</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch112.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+
+<tem>
+<title>Canal 2</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch7.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 3</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch61.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 4</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch130.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 5</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch111.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 6</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 7</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 8</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 9</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+ 
+<tem>
+<title>Canal 10</title> 
+<sportsdevil>http://www.foot-live.info/stream/ch66.php</sportsdevil>
+<referer>http://www.hdmyt.info</referer>
+ </item>
+  
+</items>
+</channel>
+
+</channels>	

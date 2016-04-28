@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<channels>
+<channels_info>
+<title>[COLOR yellow][B] Maniac[/B][/COLOR][COLOR red][B]TV[/B][/COLOR]</title>
+<genre>IPTV</genre>
+<description>Lista de Canais e Filmes IPTV</description>
+<thumbnail>https://cld.pt/dl/download/d2ee4f55-b1cf-44f3-8a56-5f3e55c99085/icons%20ManiacTV.png</thumbnail>
+<fanart>https://cld.pt/dl/download/52e64e5e-1bf0-41ab-a9d2-9afaefd99fd4/Fanart%20Principal%20ManiacTV.png</fanart>
+<date>29.01.2016</date>
+<credits>By Coelhon</credits>
+</channels_info>
+<channels>
+
+
+<channel>
+<name>[COLOR yellow][B]               POWERED BY[/B][/COLOR][COLOR red][B]  TEAM[/B][/COLOR][COLOR yellow][B]MANIAC[/B][/COLOR][COLOR red][B]TV[/B][/COLOR]</name>
+<thumbnail>https://cld.pt/dl/download/d2ee4f55-b1cf-44f3-8a56-5f3e55c99085/icons%20ManiacTV.png</thumbnail>
+<fanart>https://cld.pt/dl/download/52e64e5e-1bf0-41ab-a9d2-9afaefd99fd4/Fanart%20Principal%20ManiacTV.png</fanart>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com</externallink>
+</channel>
+</channels>
+
+ 
+ 
+<channels>
+ 
+<channel>
+<name>[COLOR lawngreen][B]                 Update[/B][/COLOR][COLOR red][B]:[/B][/COLOR][COLOR lawngreen][B] 26 [/B][/COLOR][COLOR red][B]-[/B][/COLOR][COLOR lawngreen][B] Março [/B][/COLOR][COLOR red][B] - [/B][/COLOR][COLOR lawngreen][B] 2016 [/B][/COLOR]</name>
+<thumbnail>https://cld.pt/dl/download/85ed105c-7ab9-4160-9c03-cdee5b51a22f/icon%20UPDATE.jpg</thumbnail>
+<fanart>https://cld.pt/dl/download/52e64e5e-1bf0-41ab-a9d2-9afaefd99fd4/Fanart%20Principal%20ManiacTV.png</fanart>
+<link>http://ignoreme</link>
+<externallink>**</externallink>
+</channel>
+</channels>
+ 
+ 
+ 
+
+<channels>
+ 
+<channel>
+<name>[COLOR lawngreen][COLOR red][B]&#8226; [/B] [/COLOR][B]LiveTV[/B][/COLOR]</name>
+<thumbnail>https://cld.pt/dl/download/5a5cc78e-9aba-4fdb-ac5d-a60b390ac235/LiveTV.png</thumbnail>
+<fanart>https://cld.pt/dl/download/52e64e5e-1bf0-41ab-a9d2-9afaefd99fd4/Fanart%20Principal%20ManiacTV.png</fanart>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com/raw/kewTNzTf</externallink>
+</channel>
+</channels>
+ 
+    
+<channels>
+ 
+<channel>
+<name>[COLOR lawngreen][COLOR  red][B]&#8226; [/B] [/COLOR][B]Filmes[/B][/COLOR]</name>
+<thumbnail>https://cld.pt/dl/download/308e04c0-2a0c-4dc2-8c83-cd70cf7c191d/icon%20Filmes.jpg</thumbnail>
+<fanart>https://cld.pt/dl/download/330b0041-5451-4a27-95a6-1216fe0eee39/Fanart%20Filmes.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com/raw/aEMWJhdm</externallink>
+</channel>
+</channels>
+
+
+<channels>
+ 
+<channel>
+<name>[COLOR lawngreen][COLOR  red][B]&#8226; [/B] [/COLOR][B]MusicTV[/B][/COLOR]</name>
+<thumbnail>https://cld.pt/dl/download/f295d4e2-4c8a-450d-9886-3f461da5091b/icon%20MusicTV.jpg</thumbnail>
+<fanart>https://cld.pt/dl/download/52e64e5e-1bf0-41ab-a9d2-9afaefd99fd4/Fanart%20Principal%20ManiacTV.png</fanart>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com/raw/VrZNRTnW</externallink>
+</channel>
+</channels>
+
+
+
+<channels>
+ 
+<channel>
+<name>[COLOR lawngreen][COLOR  red][B]&#8226; [/B] [/COLOR][B]MusicVideos[/B][/COLOR]</name>
+<thumbnail>https://cld.pt/dl/download/51956d1e-47be-423d-9f43-9aea415baebc/icon%20MusicVideos.jpg</thumbnail>
+<fanart>https://cld.pt/dl/download/52e64e5e-1bf0-41ab-a9d2-9afaefd99fd4/Fanart%20Principal%20ManiacTV.png</fanart>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com/raw/QkbJFn8K</externallink>
+</channel>
+</channels>
+
+
+<channels>
+ 
+<channel>
+<name>[COLOR lawngreen][COLOR  red][B]&#8226; [/B] [/COLOR][B]Documentários[/B][/COLOR]</name>
+<thumbnail>https://cld.pt/dl/download/08a87d3f-87f6-4ed3-800b-5e118dd98ce7/Documentarios.png</thumbnail>
+<fanart>https://cld.pt/dl/download/52e64e5e-1bf0-41ab-a9d2-9afaefd99fd4/Fanart%20Principal%20ManiacTV.png</fanart>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com/raw/9cWuThWD</externallink>
+</channel>
+</channels>
