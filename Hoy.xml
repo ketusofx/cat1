@@ -120,6 +120,34 @@
 </channel>
 
 <channel>
+	<name>pruebas porno</name>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+	<items>
+		
+	<item>
+	<title>1</title>
+	<link>$doregex[id]</link>
+	<regex>
+	<name>id</name>	
+	<expres>file:'(.*)'</expres>
+	<page>http://streamin.to/bjnv36kzl7f1</page>
+	<referer>http://streamin.to</referer>
+	</regex>
+	<thumbnail>https://i.ytimg.com/vi/x-B7GjBL0vU/hqdefault.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+<genre></genre>
+<info></info>
+<date></date>
+	</item>	
+	</items>
+</channel>
+
+
+
+
+
+<channel>
 <name>Joy</name>
 <thumbnail>http://shotimg.com/images/4f27c2ed6c3ccac4c828e44b1c5c0e1b.jpg</thumbnail>
 <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
