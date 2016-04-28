@@ -121,7 +121,7 @@
 
 <channel>
 	<name>pruebas porno</name>
-	<thumbnail></thumbnail>
+	<thumbnail>http://i.imgur.com/UKPe4ys.jpg</thumbnail>
 	<fanart></fanart>
 	<items>
 		
@@ -131,7 +131,7 @@
 	<regex>
 	<name>id</name>	
 	<expres>file:'(.*)'</expres>
-	<page>http://streamin.to/bjnv36kzl7f1</page>
+	<page>http://streamin.to/embed-bjnv36kzl7f1</page>
 	<referer>http://streamin.to</referer>
 	</regex>
 	<thumbnail>https://i.ytimg.com/vi/x-B7GjBL0vU/hqdefault.jpg</thumbnail>
