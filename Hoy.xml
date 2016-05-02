@@ -120,12 +120,12 @@
 </channel>
 
 <channel>
+	<items>
+		<item>
 	<title>pruebas porno</title>
 	<thumbnail>http://i.imgur.com/UKPe4ys.jpg</thumbnail>
 	<fanart></fanart>
-	<items>
-		
-	<item>
+	
 	<title>1</title>
 	<link>$doregex[id]</link>
 	<regex>
